@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo Installing setup for a Riverside Rocks VPS...
+sleep 5
+
+sudo apt-get install php apache2 vnstat python3 -y
+
+echo Downloading NVM
+sleep 3
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+nvm install node
+
+npm i -g pm2
+

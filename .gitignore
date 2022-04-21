@@ -1,0 +1,7 @@
+*.json
+*.txt
+*.list
+vnstat/
+contact-backend.php
+search/
+vendor/

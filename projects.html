@@ -1,0 +1,53 @@
+<!--  Copyright 2020 Riverside Rocks, see github.com/RiversideRocks/web-riverside for more details. --><!--  Under Apache 2.0 --><!DOCTYPE html><html lang="en"><head></head><title>Riverside Rocks</title><body onload="halfmoon.toggleDarkMode()"></body></html><meta name="title" content="Riverside Rocks"><meta name="description" content="Website of Riverside Rocks, a fine web developer!"><meta property="og:type" content="website"><meta property="og:url" content="https://riverside.rocks"><meta property="og:title" content="Riverside Rocks"><meta property="og:description" content="Website of Riverside Rocks, a fine web developer!"><meta property="og:image" content="https://avatars0.githubusercontent.com/u/59586759?s=460&amp;u=3a65147e9589b116e6724773ea10e9773ac7c682&amp;v=4"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://riverside.rocks"><meta property="twitter:title" content="Riverside Rocks"><meta property="twitter:description" content="Website of Riverside Rocks, a fine web developer!"><meta property="twitter:image" content="https://avatars0.githubusercontent.com/u/59586759?s=460&amp;u=3a65147e9589b116e6724773ea10e9773ac7c682&amp;v=4"><link rel="manifest" href="/pwa/manifest.webmanifest"><link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon-variables.min.css" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://kit.fontawesome.com/281a5c53f1.js"></script><script src="/src/research.js"></script><script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.0/dist/sweetalert2.all.min.js"></script><link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4.0.1/dark.min.css" rel="stylesheet"><script src="https://riverside.rocks/src/pwa.js"></script><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="HandheldFriendly" content="true"><a class="url" href="https://honeypot.glitch.me/hidden" style="display:none;"></a><script async defer src="https://rocks.riverside.rocks/latest.js"></script>
+<noscript><img src="https://rocks.riverside.rocks/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+<div class="page-wrapper with-navbar">
+<nav class="navbar">
+  <div class="navbar-content">
+  </div>
+  <a href="/" class="navbar-brand">
+    <img src="https://riverside.rocks/assets/serve/production/app/5fc3bd2cdff38.png" alt="tucker-logo">
+    Riverside Rocks
+  </a>
+  <ul class="navbar-nav d-none d-md-flex"> <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+    <li class="nav-item">
+      <a href="/about/" class="nav-link">About</a>
+    </li>
+    <li class="nav-item">
+      <a href="/projects/" class="nav-link">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a href="/videos/" class="nav-link">YouTube</a>
+    </li>
+    <li class="nav-item">
+      <a href="/about/contact/" class="nav-link">Contact</a>
+    </li>
+    <li class="nav-item">
+  <a class="nav-link" onclick="halfmoon.toggleDarkMode()">Dark Mode</a>
+</li>
+  </ul>
+  <!-- Navbar form (inline form) -->
+  <div class="navbar-content d-md-none ml-auto"> <!-- d-md-none = display: none on medium screens and up (width > 768px), ml-auto = margin-left: auto -->
+    <div class="dropdown with-arrow">
+      <button class="btn" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">
+        Menu
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </button>
+      <div class="dropdown-menu dropdown-menu-right w-200" aria-labelledby="navbar-dropdown-toggle-btn-1"> <!-- w-200 = width: 20rem (200px) -->
+        <a href="/about/" class="dropdown-item">About</a>
+        <a href="/projects/" class="dropdown-item">Projects</a>
+        <a href="/account/dashboard/" class="dropdown-item">Dashboard</a>
+        <a href="/about/contact/" class="dropdown-item">Contact</a>
+         <a class="dropdown-item" onclick="halfmoon.toggleDarkMode()">Dark Mode</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    <div class="content-wrapper"> <!-- Begin -->
+    <script>
+      $( document ).ready(function() {
+         var interval = setInterval(res, 6000); 
+         var int = setInterval(updateReadTimeService, 10000);
+      });
+    </script>
+    <center>
+<h1>Projects</h1><h5>Here is a list of neat projects I have created/worked on.</h5><div class="card"><h2 class="card-title">Dangerous User DB<p>A bot to check on and report dangerous discord users.<a href="https://github.com/DangerousUserDB/DangerousUserDB" class="btn">Visit</a></p></h2></div><div class="card"><h2 class="card-title">Dangerous User DB Discord Bot<p>A bot to check on and report dangerous discord users.<a href="https://discord.com/oauth2/authorize?client_id=764485265775263784&amp;scope=bot&amp;permissions=3072" class="btn">Invite</a></p></h2></div><div class="card"><h2 class="card-title">Glitch Support Forum<p>I help out people on the Glitch Support community!<a href="https://support.glitch.com/u/RiversideRocks" class="btn">Visit</a></p></h2></div><div class="card"><h2 class="card-title">API Server<p>APIs for Riverside Rocks<a href="https://github.com/RiversideRocks/APIv2" class="btn">Visit</a></p></h2></div>
